@@ -1,4 +1,13 @@
-const repeatString = function() {
+const repeatString = function(string, num) {
+    if (+num < 0) {
+        return "ERROR";
+    }
+    let summedString = '';
+    for (let index = 0; index < num; index++) {
+        summedString += string;
+        
+    }
+    return summedString;
 
 };
 
